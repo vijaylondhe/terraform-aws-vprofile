@@ -3,9 +3,9 @@ variable "REGION" {
 }
 
 variable "AMIS" {
-  type = map
+  type = map(any)
   default = {
-    us-east-1 = "ami-06397100adf427136"
+    us-east-1 = "ami-006e00d6ac75d2ebb"
     us-east-2 = "ami-06397100adf427136"
   }
 }
@@ -53,7 +53,7 @@ variable "VPC_NAME" {
 }
 
 variable "ZONE1" {
-  default = "us-east1-1a"
+  default = "us-east-1a"
 }
 
 variable "ZONE2" {

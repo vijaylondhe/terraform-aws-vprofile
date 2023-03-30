@@ -35,3 +35,5 @@ terraform.rc
 
 .idea/*
 .terraform.lock.hcl
+vprofilekey
+vprofilekey.pub
